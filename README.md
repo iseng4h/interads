@@ -7,3 +7,11 @@ put all files in the /home/interads/interads
 
 run ./install.sh script
 it will ask sudo password
+
+
+Dependencies:
+- jetson inference
+- python3
+- python3 bluez
+- python3 opencv 
+- paho mqtt
