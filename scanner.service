@@ -1,0 +1,11 @@
+[Unit]
+Description=Bluetooth and WiFi Sniffer Service
+Requires=network-online.target bluetooth.target
+After=network-online.target bluetooth.target
+StartLimitInterval=0
+
+[Service]
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/scanner.py
+Restart=always
+RestartSec=5

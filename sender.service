@@ -1,0 +1,9 @@
+[Unit]
+Description=Sender Service
+After=network-online.target
+
+[Service]
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/sender.py
+Restart=always
+RestartSec=1min

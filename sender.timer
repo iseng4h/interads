@@ -1,0 +1,9 @@
+[Unit]
+Description=Sender Timer Delay
+
+[Timer]
+OnBootSec=1min
+Unit=sender.service
+
+[Install]
+WantedBy=multi-user.target

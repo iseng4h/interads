@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily Reboot Service
+StartLimitInterval=0
+
+[Service]
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/rebooter.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

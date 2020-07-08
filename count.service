@@ -1,0 +1,13 @@
+[Unit]
+Description=Counter Service
+PartOf=graphical-session.target
+
+[Service]
+Environment="DISPLAY=:0"
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/count.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target

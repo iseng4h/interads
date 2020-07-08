@@ -1,0 +1,13 @@
+[Unit]
+Description=MQTT Handler Service
+Requires=network-online.target
+After=network-online.target
+StartLimitInterval=0
+
+[Service]
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/mqtt_handler.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

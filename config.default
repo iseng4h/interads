@@ -1,0 +1,22 @@
+{
+	"user": "hcmlab", 
+	"host": "hcm-lab.id",
+	"host_port": 22,
+	"host_dir": ".",
+	"mqtt_host": "go.interads.co.id",
+	"mqtt_port": 1883,
+	"mqtt_topic": "/jetson/publish",
+	"person": true, 
+	"face": false, 
+	"vehicle": true, 
+	"large_vehicle": true, 
+	"motor": true, 
+	"record": false,
+	"record_dur": 5, 
+	"mirror": false,
+	"interval": 1,
+	"reboot_time": "23:00",
+	"start_time": "06:00",
+	"stop_time": "17:00",
+	"reset_time": "23"
+}

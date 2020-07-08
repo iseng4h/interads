@@ -1,0 +1,12 @@
+[Unit]
+Description=Resete Service
+StartLimitInterval=0
+
+[Service]
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/resetter.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

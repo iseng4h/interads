@@ -1,0 +1,12 @@
+[Unit]
+Description=Operation Time User Service
+StartLimitInterval=0
+
+[Service]
+WorkingDirectory=/home/interads/interads
+ExecStart=/home/interads/interads/active-time-user.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
