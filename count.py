@@ -212,7 +212,7 @@ if __name__ == '__main__':
 
 		now = datetime.now()
 		datestr = now.strftime("%Y-%m-%d")
-		timestr = now.strftime(" %H-%M-%S")
+		timestr = now.strftime(" %H:%M:%S")
 
 
 
