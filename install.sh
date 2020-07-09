@@ -31,3 +31,5 @@ sudo systemctl enable resetter
 sudo systemctl enable scanner.timer
 sudo systemctl enable sender.timer
 
+chmod +x *.sh
+chmod +x *.py
